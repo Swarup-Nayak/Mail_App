@@ -1,0 +1,70 @@
+.sidebar {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 60px;
+  flex-direction: column;
+  /* flex: 0.45; */
+}
+
+.compose__btn {
+  padding: 20px 50px !important;
+  border-radius: 40px !important;
+  background-color: rgb(180, 235, 221) !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.inbox {
+  height: 65px;
+  width: 220px;
+  border-radius: 40px;
+  background-color: rgb(245, 221, 112);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.inbox span {
+  font-size: 20px;
+}
+
+.sent {
+  height: 65px;
+  width: 220px;
+  border-radius: 40px;
+  background-color: rgb(241, 156, 145);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.drafts {
+  height: 65px;
+  width: 220px;
+  border-radius: 40px;
+  background-color: rgb(123, 233, 187);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.outbox {
+  height: 65px;
+  width: 220px;
+  border-radius: 40px;
+  background-color: rgb(146, 228, 243);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.sidebar span {
+  letter-spacing: 1px;
+}

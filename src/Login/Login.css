@@ -1,0 +1,27 @@
+.loginWrapper {
+  display: flex;
+  /* height: 100vh; */
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.loginWrapper img {
+  margin-left: 394px;
+}
+
+.loginBtn {
+  height: 70px;
+  width: 400px;
+  background-color: rgb(15, 19, 15);
+  border: 0px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  outline: 0;
+  color: rgb(226, 107, 107);
+  cursor: pointer;
+  margin-left: 571px;
+}

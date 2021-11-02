@@ -1,0 +1,5 @@
+.emaillist {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 60px; */
+}

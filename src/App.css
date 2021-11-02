@@ -1,0 +1,28 @@
+body {
+  background-color: #31b1f0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__1 {
+  display: flex;
+}
+
+.app__sidebar {
+  flex: 0.45;
+}
+.app__body .app__body__advt img {
+  height: 450px;
+  width: 350px;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.app__body {
+  display: flex;
+  flex-direction: row;
+  /* flex: 0.4s5; */
+}
